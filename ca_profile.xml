@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Profile>
-  <Author>Whitehawk2000</Author>
-  <Repository>unraid-templates</Repository>
-  <ProfilePage>https://github.com/Whitehawk2000</ProfilePage>
+  <Maintainer>Whitehawk2000</Maintainer>
+  <Bio></Bio>
+  <Github>Whitehawk2000</Github>
+  <Forum>Whitehawk</Forum>
+  <DonateLink></DonateLink>
+  <DonateText></DonateText>
 </Profile>
