@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Profile>
-  <Name>Whitehawk2000</Name>
-  <Overview>Unraid Docker templates repository</Overview>
-  <Support>https://forums.unraid.net</Support>
-</Profile>
+<ca_profile>
+  <Maintainer>Whitehawk2000</Maintainer>
+  <Bio>Unraid Docker Templates for Printventory</Bio>
+  <Github>Whitehawk2000</Github>
+</ca_profile>
