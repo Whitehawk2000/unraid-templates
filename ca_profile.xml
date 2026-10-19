@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Profile>
-  <Maintainer>Whitehawk2000</Maintainer>
-  <Bio>Unraid Docker templates</Bio>
-  <Github>Whitehawk2000</Github>
-</Profile>
+<CommunityApplications>
+  <Profile>
+    Unraid Docker templates maintained by Whitehawk2000.
+  </Profile>
+  <WebPage>https://github.com/Whitehawk2000/unraid-templates</WebPage>
+</CommunityApplications>
