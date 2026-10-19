@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Profile>
-  <Maintainer>Whitehawk2000</Maintainer>
-  <Github>Whitehawk2000</Github>
-  <Forum>Whitehawk</Forum>
+  <Name>Whitehawk2000</Name>
+  <Overview>Unraid Docker templates repository</Overview>
+  <Support>https://forums.unraid.net</Support>
 </Profile>
