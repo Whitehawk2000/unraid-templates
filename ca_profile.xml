@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ca_profile>
+<Profile>
   <Maintainer>Whitehawk2000</Maintainer>
-  <Bio>Unraid Docker Templates for Printventory</Bio>
-  <Github>Whitehawk2000</Github>
-</ca_profile>
+  <Overview>Unraid Docker Templates</Overview>
+</Profile>
