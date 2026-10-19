@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Printventory</Name>
+  <Repository>printventory/printventory:latest</Repository>
+  <Registry>https://hub.docker.com/r/printventory/printventory</Registry>  
+  <Network>bridge</Network>  
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>  
+  <Project>https://github.com/printventory/printventory</Project>  
+  <Overview>Printventory is an open-source 3D printing model library and physical inventory manager. It allows you to organize your 3D models (STL, 3MF, STEP), manage print files, track filament consumption, and keep an overview of your physical stock in a clean WebUI.</Overview>
+  <Category>Tools: MediaApp:Other</Category>
+  <WebUI>http://[IP]:[PORT:8095]/</WebUI>  
+  <Icon>https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/printventory.png</Icon>  
+  <DateInstalled>1792433365</DateInstalled>  
+  <Config Name="WebUI" Target="5000" Default="8095" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8095</Config>
+  <Config Name="Config" Target="/root/.config/printventory" Default="/mnt/user/appdata/printventory" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/printventory</Config>
+  <Config Name="3D model library" Target="/mnt/models" Default="/mnt/user/models/" Mode="rw" Description="your 3D model library" Type="Path" Display="always" Required="false" Mask="false"></Config>  
+  <Config Name="SERVER_MODE" Target="SERVER_MODE" Default="true" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">true</Config>
+  <TailscaleStateDir/>
+</Container>
