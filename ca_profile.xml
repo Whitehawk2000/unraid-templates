@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Profile>
   <Maintainer>Whitehawk2000</Maintainer>
-  <Overview>Unraid Docker Templates</Overview>
+  <Bio>Unraid Docker templates</Bio>
+  <Github>Whitehawk2000</Github>
 </Profile>
